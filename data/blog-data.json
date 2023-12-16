@@ -2,15 +2,15 @@
     "users": [
       {
         "id": 1,
-        "username": "john",
-        "email": "john@example.com",
-        "password": "hashed_password"
+        "username": "jay",
+        "email": "jay@mailinator.com",
+        "password": "Realasvp44"
       },
       {
         "id": 2,
-        "username": "jane",
-        "email": "jane@example.com",
-        "password": "hashed_password"
+        "username": "Susan",
+        "email": "susa@mailinator.com",
+        "password": "Realasvp444"
       }
     ],
     "blogPosts": [

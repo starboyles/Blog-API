@@ -1,0 +1,72 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john",
+        "email": "john@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": 2,
+        "username": "jane",
+        "email": "jane@example.com",
+        "password": "hashed_password"
+      }
+    ],
+    "blogPosts": [
+      {
+        "id": 1,
+        "title": "Introduction to Blogging",
+        "authorId": 1,
+        "content": "Lorem ipsum dolor sit amet...",
+        "date": "2023-01-01",
+        "tags": ["blogging", "writing"],
+        "featuredImage": {
+          "url": "https://example.com/images/intro-to-blogging.jpg",
+          "caption": "Image caption"
+        },
+        "views": 500,
+        "likes": 50
+      },
+      {
+        "id": 2,
+        "title": "Advanced Blogging Techniques",
+        "authorId": 2,
+        "content": "Lorem ipsum dolor sit amet...",
+        "date": "2023-02-15",
+        "tags": ["blogging", "writing", "SEO"],
+        "featuredImage": {
+          "url": "https://example.com/images/advanced-blogging.jpg",
+          "caption": "Image caption"
+        },
+        "views": 1000,
+        "likes": 100
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "blogPostId": 1,
+        "authorId": 2,
+        "content": "Great post! Thanks for sharing.",
+        "date": "2023-01-02",
+        "likes": 5
+      },
+      {
+        "id": 2,
+        "blogPostId": 1,
+        "authorId": 1,
+        "content": "I have a question. Can you explain...",
+        "date": "2023-01-03",
+        "likes": 2
+      },
+      {
+        "id": 3,
+        "blogPostId": 2,
+        "authorId": 2,
+        "content": "This is very helpful. I'll try it out.",
+        "date": "2023-02-16",
+        "likes": 10
+      }
+    ]
+  }

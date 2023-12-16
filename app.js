@@ -2,7 +2,10 @@ const express = require('express');
 const app = express();
 
 
-app.get('/api/v1/blog',  );
+app.get('/api/v1/blog', (req, res) => {
+    res.status(200);
+    
+} );
 
 
 

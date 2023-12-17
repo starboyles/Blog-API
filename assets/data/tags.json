@@ -1,0 +1,29 @@
+{
+    "tags": [
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
+      },
+      {
+        "id": 3,
+        "name": "Python"
+      },
+      {
+        "id": 4,
+        "name": "Coding"
+      },
+     {
+      "id": 5,
+      "name": "Nodejs"
+    },
+    {
+        "id": 6,
+        "name": "Django"
+    }
+    ]
+  }
+  

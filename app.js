@@ -15,13 +15,10 @@ app.get('/api/v1/blogs', (req, res) => {
     });
 });
 
-app.post('/api/v1/blog', (req, res) => {
-    res.status(200).json({
-    
-    });
+app.post('/api/v1/blogs', (req, res) => {
+    console.log(req.body)
+   res.send ('Done');
 });
-
-
 
 
 const port = 8001;

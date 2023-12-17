@@ -2,20 +2,23 @@ const fs = require('fs');
 const express = require('express');
 
 const app = express();
+app.use(express.json());
 
-const blog = JSON.parse(fs.readFileSync(`${__dirname}/assets/data/blog-data.json`));
+const blogs = JSON.parse(fs.readFileSync(`${__dirname}/assets/data/blogs-data.json`));
 
-app.get('/api/v1/blog', (req, res) => {
+app.get('/api/v1/blogs', (req, res) => {
     res.status(200).json({
         status: 'success',
         data: {
-            blog
+            blogs
         }
     });
 });
 
 app.post('/api/v1/blog', (req, res) => {
+    res.status(200).json({
     
+    });
 });
 
 

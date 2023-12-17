@@ -1,72 +1,57 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "jay",
-        "email": "jay@mailinator.com",
-        "password": "Realasvp44"
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "content": "In this tutorial, we'll explore the basics of building a React app...",
+      "author": {
+        "id": 101,
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
       },
-      {
-        "id": 2,
-        "username": "Susan",
-        "email": "susa@mailinator.com",
-        "password": "Realasvp444"
-      }
-    ],
-    "blogPosts": [
-      {
-        "id": 1,
-        "title": "Introduction to Blogging",
-        "authorId": 1,
-        "content": "Lorem ipsum dolor sit amet...",
-        "date": "2023-01-01",
-        "tags": ["blogging", "writing"],
-        "featuredImage": {
-          "url": "https://example.com/images/intro-to-blogging.jpg",
-          "caption": "Image caption"
-        },
-        "views": 500,
-        "likes": 50
+      "tags": ["react", "javascript"],
+      "categories": ["web development"],
+      "timestamp": "2023-03-15T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "10 Tips for Efficient Python Coding",
+      "content": "Improve your Python coding skills with these useful tips and tricks...",
+      "author": {
+        "id": 102,
+        "name": "Bob Smith",
+        "email": "bob@example.com"
       },
-      {
-        "id": 2,
-        "title": "Advanced Blogging Techniques",
-        "authorId": 2,
-        "content": "Lorem ipsum dolor sit amet...",
-        "date": "2023-02-15",
-        "tags": ["blogging", "writing", "SEO"],
-        "featuredImage": {
-          "url": "https://example.com/images/advanced-blogging.jpg",
-          "caption": "Image caption"
-        },
-        "views": 1000,
-        "likes": 100
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "blogPostId": 1,
-        "authorId": 2,
-        "content": "Great post! Thanks for sharing.",
-        "date": "2023-01-02",
-        "likes": 5
-      },
-      {
-        "id": 2,
-        "blogPostId": 1,
-        "authorId": 1,
-        "content": "I have a question. Can you explain...",
-        "date": "2023-01-03",
-        "likes": 2
-      },
-      {
-        "id": 3,
-        "blogPostId": 2,
-        "authorId": 2,
-        "content": "This is very helpful. I'll try it out.",
-        "date": "2023-02-16",
-        "likes": 10
-      }
-    ]
+      "tags": ["python", "coding"],
+      "categories": ["coding"],
+      "timestamp": "2023-03-20T10:45:00Z"
+    },
+    {
+    "id": 3,
+    "title": "Introduction to Machine Learning",
+    "content": "Discover the fundamentals of machine learning and its applications...",
+    "author": {
+      "id": 103,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com"
+    },
+    "tags": ["machine learning", "data science"],
+    "categories": ["technology"],
+    "timestamp": "2023-04-02T14:15:00Z"
+  },
+
+    {
+    "id": 4,
+    "title": "The Art of Frontend Design",
+    "content": "Explore the principles and best practices for designing beautiful and effective user interfaces...",
+    "author": {
+      "id": 104,
+      "name": "Diana Miller",
+      "email": "diana@example.com"
+    },
+    "tags": ["frontend", "design"],
+    "categories": ["web development"],
+    "timestamp": "2023-04-10T09:00:00Z"
   }
+  ]
+}

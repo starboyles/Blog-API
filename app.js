@@ -37,6 +37,10 @@ app.post("/api/v1/blogs", (req, res) => {
   );
 });
 
+app.patch("/api/v1/blogs", (req, res) => ({}));
+
+
+
 const port = 8001;
 app.listen(port, () => {
   console.log("backend running on ${port}.. ");

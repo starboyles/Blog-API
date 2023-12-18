@@ -17,11 +17,14 @@ app.get('/api/v1/blogs', (req, res) => {
 });
 
 app.post('/api/v1/blogs', (req, res) => {
-
+   const newId = blogs[blogs.length - 1].id + 1;
+   
    res.send ('Done');
 });
 
+
+
 const port = 8001;
 app.listen(port, () => {
-    console.log('App runs on port ${port}.. ')
+    console.log('backend running on ${port}.. ')
 });

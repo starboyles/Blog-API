@@ -38,9 +38,21 @@ app.post("/api/v1/blogs", (req, res) => {
 });
 
 app.patch("/api/v1/blogs", (req, res) => {
-  
+  res.status(200).json({
+    status: "success",
+    data: {
+      blog: "<Updated Blog>",
+    }
+  })
 });
 
+
+app.delete("/api/v1/blogs", (req, res) => {
+  res.status(200).json({
+    status: "success",
+    data: null,
+  })
+})
 
 
 const port = 8001;
